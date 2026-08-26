@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Little Message For You ❤️</title>
+
+    <style>
+        body {
+            background-color: #ffe6eb;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 60px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #e75480;
+        }
+
+        h2 {
+            color: #ff6f91;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .heart {
+            font-size: 60px;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        button {
+            background-color: #e75480;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d43f6d;
+        }
+
+        #message {
+            display: none;
+            margin-top: 20px;
+            color: #e75480;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="heart">❤️</div>
+
+        <h1>MaMasekwa!!</h1>
+
+        <h2>Hope you like this Laity yaga Stiga😅</h2>
+
+        <p>
+            I made this mini Website for you to show how much i appreciate you okay.
+        </p>
+
+        <p>
+            We may be away from each other but that does not
+            change how much I care about you.
+        </p>
+
+        <p>
+            I know we don't talk alot and that doesn't change the fact that Kago rata Ngwana ga MaNurse le Ntate Masekwa😅🥰but i understand that we are both busy with the school stuff. 
+        </p>
+
+        <p>
+            Im just grateful that we got another chance to be together❤️
+        </p>
+
+        <p>
+            Don't get tempted by dilo tsedi snaks tuu!!
+        </p>
+        <p>
+            And also don't forget to behave and take care of yourself okay.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me ❤️
+        </button>
+
+        <div id="message">
+            I LOVE YOU Bontle! ❤️🥹
+        </div>
+
+        <footer>
+            Made with ❤️ just for you
+        </footer>
+
+    </div>
+
+    <script>
+
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+
+    </script>
+
+</body>
+</html>
